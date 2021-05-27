@@ -76,7 +76,34 @@ function draw() {
   }
 
 
-  
+  if(backgroundlol.x > 1250){
+    backgroundlol.x = 1250;
+  }
+  if(backgroundlol.x < 112){
+    backgroundlol.x = 112;
+  }
+  if(backgroundlol.y > 824){
+    backgroundlol.y = 824;
+  }
+  if(backgroundlol.y < -72){
+    backgroundlol.y = -72;
+  }
+
+
+
+  if(balloon.x > 1285){
+    balloon.x = 1285;
+  }
+  if(balloon.x < 75){
+    balloon.x = 75;
+  }
+  if(balloon.y > 625){
+    balloon.y = 625;
+  }
+  if(balloon.y < 135){
+    balloon.y = 135;
+  }
+
 
   
   drawSprites();
